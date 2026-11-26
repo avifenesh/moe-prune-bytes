@@ -1,0 +1,14 @@
+{
+ "dir": "~/models/mpb/selH-r112-nvfp4",
+ "n_tensors": 65523,
+ "bytes": {
+  "experts": 14269151232,
+  "attention": 509634048,
+  "embed": 622329856,
+  "lm_head": 622329856,
+  "router": 22020096,
+  "other": 397312
+ },
+ "total_bytes": 16045862400,
+ "total_gib": 14.943873882293701
+}

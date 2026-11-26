@@ -1,0 +1,14 @@
+{
+ "dir": "~/models/Qwen3-30B-A3B-Instruct-2507",
+ "n_tensors": 18867,
+ "bytes": {
+  "experts": 57982058496,
+  "attention": 1811963904,
+  "embed": 622329856,
+  "lm_head": 622329856,
+  "router": 25165824,
+  "other": 397312
+ },
+ "total_bytes": 61064245248,
+ "total_gib": 56.87051010131836
+}

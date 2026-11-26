@@ -1,0 +1,16 @@
+{
+ "n_seq": 3072,
+ "seq_len": 2048,
+ "tokens": 6291456,
+ "fineweb-edu": {
+  "docs_used": 3029,
+  "docs_dropped_contamination": 21
+ },
+ "ultrachat-train": {
+  "docs_used": 2775,
+  "docs_dropped_contamination": 2252
+ },
+ "ngram": 13,
+ "eval_items": 19165,
+ "sha256": "30f2c3e1f8c783300924a328363b314dc145e49145a929cd87031165ad23d716"
+}

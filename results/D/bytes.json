@@ -1,0 +1,14 @@
+{
+ "dir": "~/models/mpb/r72-fp8",
+ "n_tensors": 21363,
+ "bytes": {
+  "experts": 16332226560,
+  "attention": 906682368,
+  "embed": 622329856,
+  "lm_head": 622329856,
+  "router": 14155776,
+  "other": 397312
+ },
+ "total_bytes": 18498121728,
+ "total_gib": 17.227718353271484
+}

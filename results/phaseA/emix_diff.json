@@ -1,0 +1,2431 @@
+{
+ "keep": 96,
+ "changed_total": 438,
+ "changed_per_layer": [
+  9,
+  8,
+  12,
+  10,
+  9,
+  11,
+  9,
+  13,
+  8,
+  7,
+  8,
+  11,
+  6,
+  6,
+  7,
+  6,
+  8,
+  9,
+  15,
+  14,
+  9,
+  8,
+  8,
+  10,
+  5,
+  7,
+  7,
+  5,
+  8,
+  10,
+  12,
+  11,
+  6,
+  9,
+  6,
+  7,
+  8,
+  8,
+  11,
+  9,
+  11,
+  9,
+  12,
+  7,
+  12,
+  15,
+  15,
+  7
+ ],
+ "gained_by_domain": {
+  "code": 119,
+  "wiki_ja": 91,
+  "math": 59,
+  "wiki_ru": 36,
+  "wiki_he": 26,
+  "tool": 21,
+  "wiki_ar": 21,
+  "reasoning": 18,
+  "wiki_de": 17,
+  "philosophy": 15,
+  "wiki_es": 11,
+  "chat": 4
+ },
+ "lost_by_domain": {
+  "math": 88,
+  "code": 75,
+  "tool": 50,
+  "philosophy": 48,
+  "wiki_ru": 29,
+  "wiki_ja": 29,
+  "instruction": 24,
+  "wiki_es": 22,
+  "reasoning": 22,
+  "chat": 20,
+  "wiki_de": 13,
+  "wiki_ar": 11,
+  "wiki_he": 7
+ },
+ "zero_token_in_E": 45,
+ "zero_token_with_traffic_in_mix": 45,
+ "zero_token_kept_in_Emix": 24,
+ "per_layer": [
+  {
+   "layer": 0,
+   "n_changed": 9,
+   "gained": [
+    0,
+    9,
+    39,
+    74,
+    90,
+    94,
+    102,
+    111,
+    114
+   ],
+   "lost": [
+    6,
+    31,
+    61,
+    72,
+    79,
+    84,
+    97,
+    110,
+    122
+   ],
+   "gained_serves": [
+    "wiki_he",
+    "wiki_he",
+    "wiki_he",
+    "wiki_es",
+    "wiki_he",
+    "math",
+    "math",
+    "wiki_he",
+    "code"
+   ],
+   "lost_serves": [
+    "wiki_ru",
+    "wiki_ar",
+    "instruction",
+    "instruction",
+    "philosophy",
+    "tool",
+    "instruction",
+    "tool",
+    "instruction"
+   ]
+  },
+  {
+   "layer": 1,
+   "n_changed": 8,
+   "gained": [
+    4,
+    24,
+    43,
+    51,
+    69,
+    96,
+    105,
+    115
+   ],
+   "lost": [
+    21,
+    74,
+    87,
+    97,
+    100,
+    103,
+    109,
+    124
+   ],
+   "gained_serves": [
+    "tool",
+    "wiki_ar",
+    "code",
+    "wiki_de",
+    "wiki_es",
+    "wiki_ja",
+    "code",
+    "philosophy"
+   ],
+   "lost_serves": [
+    "code",
+    "instruction",
+    "code",
+    "math",
+    "code",
+    "math",
+    "wiki_ar",
+    "math"
+   ]
+  },
+  {
+   "layer": 2,
+   "n_changed": 12,
+   "gained": [
+    20,
+    30,
+    32,
+    42,
+    43,
+    62,
+    89,
+    101,
+    103,
+    106,
+    108,
+    124
+   ],
+   "lost": [
+    13,
+    27,
+    31,
+    33,
+    34,
+    35,
+    61,
+    71,
+    83,
+    95,
+    102,
+    109
+   ],
+   "gained_serves": [
+    "wiki_ru",
+    "code",
+    "math",
+    "wiki_ja",
+    "wiki_ja",
+    "chat",
+    "code",
+    "wiki_ja",
+    "code",
+    "wiki_ja",
+    "wiki_de",
+    "wiki_he"
+   ],
+   "lost_serves": [
+    "math",
+    "math",
+    "math",
+    "wiki_ja",
+    "tool",
+    "code",
+    "math",
+    "code",
+    "wiki_ja",
+    "math",
+    "math",
+    "math"
+   ]
+  },
+  {
+   "layer": 3,
+   "n_changed": 10,
+   "gained": [
+    15,
+    23,
+    39,
+    52,
+    72,
+    83,
+    85,
+    87,
+    96,
+    100
+   ],
+   "lost": [
+    0,
+    14,
+    18,
+    27,
+    43,
+    50,
+    68,
+    69,
+    75,
+    115
+   ],
+   "gained_serves": [
+    "wiki_ja",
+    "wiki_de",
+    "wiki_ru",
+    "wiki_ja",
+    "code",
+    "wiki_ja",
+    "code",
+    "wiki_he",
+    "wiki_ja",
+    "wiki_ja"
+   ],
+   "lost_serves": [
+    "math",
+    "wiki_ja",
+    "math",
+    "wiki_es",
+    "reasoning",
+    "math",
+    "wiki_ja",
+    "wiki_de",
+    "code",
+    "code"
+   ]
+  },
+  {
+   "layer": 4,
+   "n_changed": 9,
+   "gained": [
+    7,
+    17,
+    44,
+    45,
+    53,
+    68,
+    75,
+    80,
+    93
+   ],
+   "lost": [
+    8,
+    28,
+    33,
+    52,
+    54,
+    55,
+    71,
+    82,
+    90
+   ],
+   "gained_serves": [
+    "wiki_ja",
+    "wiki_ja",
+    "wiki_es",
+    "wiki_ja",
+    "wiki_ru",
+    "wiki_ja",
+    "code",
+    "wiki_de",
+    "philosophy"
+   ],
+   "lost_serves": [
+    "math",
+    "code",
+    "code",
+    "math",
+    "philosophy",
+    "math",
+    "code",
+    "philosophy",
+    "philosophy"
+   ]
+  },
+  {
+   "layer": 5,
+   "n_changed": 11,
+   "gained": [
+    1,
+    11,
+    12,
+    35,
+    38,
+    67,
+    86,
+    88,
+    89,
+    106,
+    109
+   ],
+   "lost": [
+    15,
+    21,
+    22,
+    52,
+    53,
+    65,
+    74,
+    84,
+    91,
+    101,
+    119
+   ],
+   "gained_serves": [
+    "tool",
+    "wiki_ja",
+    "tool",
+    "code",
+    "math",
+    "wiki_ru",
+    "wiki_de",
+    "code",
+    "wiki_ja",
+    "wiki_he",
+    "code"
+   ],
+   "lost_serves": [
+    "math",
+    "chat",
+    "instruction",
+    "math",
+    "wiki_ja",
+    "code",
+    "instruction",
+    "code",
+    "math",
+    "math",
+    "tool"
+   ]
+  },
+  {
+   "layer": 6,
+   "n_changed": 9,
+   "gained": [
+    20,
+    24,
+    27,
+    28,
+    34,
+    36,
+    71,
+    91,
+    104
+   ],
+   "lost": [
+    6,
+    15,
+    25,
+    41,
+    69,
+    74,
+    76,
+    119,
+    124
+   ],
+   "gained_serves": [
+    "code",
+    "math",
+    "philosophy",
+    "wiki_ru",
+    "wiki_ar",
+    "wiki_ja",
+    "reasoning",
+    "code",
+    "wiki_ja"
+   ],
+   "lost_serves": [
+    "wiki_es",
+    "math",
+    "reasoning",
+    "wiki_ar",
+    "tool",
+    "tool",
+    "math",
+    "reasoning",
+    "wiki_ja"
+   ]
+  },
+  {
+   "layer": 7,
+   "n_changed": 13,
+   "gained": [
+    3,
+    16,
+    25,
+    26,
+    28,
+    36,
+    37,
+    39,
+    81,
+    82,
+    120,
+    121,
+    123
+   ],
+   "lost": [
+    11,
+    17,
+    19,
+    22,
+    31,
+    42,
+    46,
+    54,
+    56,
+    68,
+    83,
+    125,
+    126
+   ],
+   "gained_serves": [
+    "chat",
+    "reasoning",
+    "wiki_ru",
+    "wiki_he",
+    "code",
+    "code",
+    "math",
+    "philosophy",
+    "code",
+    "wiki_ja",
+    "code",
+    "wiki_ja",
+    "philosophy"
+   ],
+   "lost_serves": [
+    "math",
+    "chat",
+    "wiki_ar",
+    "tool",
+    "wiki_ru",
+    "math",
+    "math",
+    "math",
+    "wiki_he",
+    "tool",
+    "wiki_ja",
+    "math",
+    "code"
+   ]
+  },
+  {
+   "layer": 8,
+   "n_changed": 8,
+   "gained": [
+    34,
+    45,
+    58,
+    69,
+    72,
+    83,
+    85,
+    97
+   ],
+   "lost": [
+    11,
+    42,
+    48,
+    50,
+    59,
+    82,
+    88,
+    123
+   ],
+   "gained_serves": [
+    "code",
+    "wiki_ru",
+    "code",
+    "code",
+    "wiki_ar",
+    "code",
+    "math",
+    "code"
+   ],
+   "lost_serves": [
+    "math",
+    "tool",
+    "philosophy",
+    "code",
+    "philosophy",
+    "tool",
+    "code",
+    "wiki_ja"
+   ]
+  },
+  {
+   "layer": 9,
+   "n_changed": 7,
+   "gained": [
+    19,
+    26,
+    51,
+    70,
+    78,
+    91,
+    95
+   ],
+   "lost": [
+    6,
+    12,
+    31,
+    67,
+    75,
+    77,
+    120
+   ],
+   "gained_serves": [
+    "math",
+    "code",
+    "tool",
+    "wiki_ru",
+    "code",
+    "wiki_he",
+    "code"
+   ],
+   "lost_serves": [
+    "wiki_ru",
+    "tool",
+    "code",
+    "wiki_ja",
+    "code",
+    "tool",
+    "math"
+   ]
+  },
+  {
+   "layer": 10,
+   "n_changed": 8,
+   "gained": [
+    0,
+    7,
+    21,
+    29,
+    32,
+    81,
+    102,
+    122
+   ],
+   "lost": [
+    12,
+    16,
+    20,
+    38,
+    58,
+    66,
+    69,
+    92
+   ],
+   "gained_serves": [
+    "code",
+    "wiki_ja",
+    "code",
+    "code",
+    "wiki_ar",
+    "tool",
+    "wiki_ru",
+    "code"
+   ],
+   "lost_serves": [
+    "math",
+    "math",
+    "code",
+    "math",
+    "math",
+    "philosophy",
+    "philosophy",
+    "philosophy"
+   ]
+  },
+  {
+   "layer": 11,
+   "n_changed": 11,
+   "gained": [
+    14,
+    15,
+    17,
+    38,
+    62,
+    76,
+    83,
+    84,
+    108,
+    113,
+    124
+   ],
+   "lost": [
+    7,
+    21,
+    28,
+    32,
+    41,
+    44,
+    51,
+    72,
+    91,
+    121,
+    125
+   ],
+   "gained_serves": [
+    "code",
+    "code",
+    "wiki_ru",
+    "wiki_ja",
+    "code",
+    "code",
+    "wiki_ja",
+    "code",
+    "wiki_ru",
+    "code",
+    "wiki_es"
+   ],
+   "lost_serves": [
+    "math",
+    "math",
+    "math",
+    "math",
+    "wiki_de",
+    "math",
+    "tool",
+    "math",
+    "code",
+    "philosophy",
+    "chat"
+   ]
+  },
+  {
+   "layer": 12,
+   "n_changed": 6,
+   "gained": [
+    1,
+    5,
+    16,
+    41,
+    57,
+    112
+   ],
+   "lost": [
+    21,
+    49,
+    50,
+    96,
+    101,
+    125
+   ],
+   "gained_serves": [
+    "wiki_ja",
+    "code",
+    "wiki_ja",
+    "code",
+    "code",
+    "code"
+   ],
+   "lost_serves": [
+    "math",
+    "philosophy",
+    "math",
+    "chat",
+    "tool",
+    "wiki_ja"
+   ]
+  },
+  {
+   "layer": 13,
+   "n_changed": 6,
+   "gained": [
+    17,
+    31,
+    54,
+    56,
+    69,
+    116
+   ],
+   "lost": [
+    18,
+    23,
+    63,
+    91,
+    93,
+    125
+   ],
+   "gained_serves": [
+    "wiki_ja",
+    "code",
+    "code",
+    "wiki_ja",
+    "math",
+    "wiki_ja"
+   ],
+   "lost_serves": [
+    "reasoning",
+    "reasoning",
+    "math",
+    "tool",
+    "wiki_ru",
+    "philosophy"
+   ]
+  },
+  {
+   "layer": 14,
+   "n_changed": 7,
+   "gained": [
+    2,
+    42,
+    61,
+    73,
+    74,
+    89,
+    91
+   ],
+   "lost": [
+    4,
+    30,
+    37,
+    49,
+    71,
+    87,
+    98
+   ],
+   "gained_serves": [
+    "code",
+    "wiki_ja",
+    "code",
+    "reasoning",
+    "wiki_ar",
+    "math",
+    "math"
+   ],
+   "lost_serves": [
+    "math",
+    "wiki_es",
+    "tool",
+    "wiki_ru",
+    "tool",
+    "wiki_ru",
+    "philosophy"
+   ]
+  },
+  {
+   "layer": 15,
+   "n_changed": 6,
+   "gained": [
+    11,
+    75,
+    84,
+    102,
+    107,
+    118
+   ],
+   "lost": [
+    13,
+    16,
+    19,
+    31,
+    48,
+    125
+   ],
+   "gained_serves": [
+    "wiki_de",
+    "wiki_ja",
+    "code",
+    "wiki_ru",
+    "reasoning",
+    "math"
+   ],
+   "lost_serves": [
+    "code",
+    "instruction",
+    "code",
+    "chat",
+    "philosophy",
+    "wiki_ar"
+   ]
+  },
+  {
+   "layer": 16,
+   "n_changed": 8,
+   "gained": [
+    1,
+    32,
+    58,
+    62,
+    63,
+    69,
+    87,
+    122
+   ],
+   "lost": [
+    9,
+    31,
+    39,
+    73,
+    85,
+    93,
+    97,
+    106
+   ],
+   "gained_serves": [
+    "wiki_ja",
+    "wiki_he",
+    "code",
+    "wiki_ar",
+    "math",
+    "code",
+    "math",
+    "code"
+   ],
+   "lost_serves": [
+    "wiki_es",
+    "code",
+    "wiki_ar",
+    "reasoning",
+    "tool",
+    "code",
+    "philosophy",
+    "code"
+   ]
+  },
+  {
+   "layer": 17,
+   "n_changed": 9,
+   "gained": [
+    24,
+    25,
+    33,
+    63,
+    76,
+    78,
+    101,
+    107,
+    109
+   ],
+   "lost": [
+    10,
+    29,
+    32,
+    37,
+    59,
+    80,
+    95,
+    100,
+    110
+   ],
+   "gained_serves": [
+    "wiki_ja",
+    "code",
+    "math",
+    "reasoning",
+    "math",
+    "wiki_ar",
+    "wiki_ja",
+    "wiki_ja",
+    "math"
+   ],
+   "lost_serves": [
+    "code",
+    "tool",
+    "code",
+    "wiki_es",
+    "code",
+    "math",
+    "chat",
+    "wiki_ru",
+    "code"
+   ]
+  },
+  {
+   "layer": 18,
+   "n_changed": 15,
+   "gained": [
+    2,
+    9,
+    11,
+    19,
+    20,
+    27,
+    34,
+    45,
+    59,
+    68,
+    71,
+    91,
+    92,
+    98,
+    106
+   ],
+   "lost": [
+    6,
+    15,
+    18,
+    25,
+    32,
+    50,
+    52,
+    57,
+    67,
+    69,
+    80,
+    84,
+    90,
+    107,
+    124
+   ],
+   "gained_serves": [
+    "math",
+    "wiki_he",
+    "math",
+    "code",
+    "wiki_de",
+    "philosophy",
+    "wiki_ar",
+    "code",
+    "code",
+    "code",
+    "reasoning",
+    "code",
+    "wiki_de",
+    "code",
+    "math"
+   ],
+   "lost_serves": [
+    "wiki_es",
+    "math",
+    "math",
+    "wiki_ru",
+    "code",
+    "code",
+    "instruction",
+    "code",
+    "tool",
+    "code",
+    "tool",
+    "chat",
+    "philosophy",
+    "wiki_he",
+    "wiki_ja"
+   ]
+  },
+  {
+   "layer": 19,
+   "n_changed": 14,
+   "gained": [
+    3,
+    10,
+    13,
+    18,
+    23,
+    28,
+    36,
+    37,
+    39,
+    60,
+    79,
+    81,
+    90,
+    120
+   ],
+   "lost": [
+    9,
+    35,
+    40,
+    42,
+    52,
+    67,
+    68,
+    83,
+    88,
+    104,
+    109,
+    117,
+    125,
+    126
+   ],
+   "gained_serves": [
+    "chat",
+    "wiki_ru",
+    "wiki_de",
+    "math",
+    "code",
+    "tool",
+    "code",
+    "math",
+    "philosophy",
+    "philosophy",
+    "math",
+    "code",
+    "code",
+    "code"
+   ],
+   "lost_serves": [
+    "tool",
+    "code",
+    "wiki_ru",
+    "math",
+    "philosophy",
+    "tool",
+    "tool",
+    "wiki_ja",
+    "wiki_ja",
+    "code",
+    "math",
+    "code",
+    "wiki_ru",
+    "wiki_es"
+   ]
+  },
+  {
+   "layer": 20,
+   "n_changed": 9,
+   "gained": [
+    13,
+    16,
+    34,
+    45,
+    69,
+    72,
+    97,
+    124,
+    127
+   ],
+   "lost": [
+    6,
+    11,
+    25,
+    33,
+    59,
+    67,
+    92,
+    114,
+    117
+   ],
+   "gained_serves": [
+    "wiki_ru",
+    "tool",
+    "code",
+    "wiki_ru",
+    "code",
+    "wiki_ar",
+    "code",
+    "philosophy",
+    "wiki_ar"
+   ],
+   "lost_serves": [
+    "philosophy",
+    "code",
+    "wiki_de",
+    "chat",
+    "math",
+    "wiki_ja",
+    "wiki_he",
+    "math",
+    "code"
+   ]
+  },
+  {
+   "layer": 21,
+   "n_changed": 8,
+   "gained": [
+    26,
+    51,
+    55,
+    64,
+    70,
+    77,
+    95,
+    106
+   ],
+   "lost": [
+    6,
+    12,
+    23,
+    63,
+    67,
+    73,
+    75,
+    112
+   ],
+   "gained_serves": [
+    "code",
+    "tool",
+    "math",
+    "math",
+    "wiki_ru",
+    "tool",
+    "code",
+    "code"
+   ],
+   "lost_serves": [
+    "wiki_ru",
+    "tool",
+    "code",
+    "philosophy",
+    "wiki_ja",
+    "wiki_de",
+    "code",
+    "tool"
+   ]
+  },
+  {
+   "layer": 22,
+   "n_changed": 8,
+   "gained": [
+    0,
+    7,
+    29,
+    58,
+    110,
+    116,
+    122,
+    126
+   ],
+   "lost": [
+    3,
+    12,
+    64,
+    75,
+    78,
+    91,
+    97,
+    104
+   ],
+   "gained_serves": [
+    "code",
+    "wiki_ja",
+    "code",
+    "math",
+    "reasoning",
+    "math",
+    "code",
+    "wiki_he"
+   ],
+   "lost_serves": [
+    "instruction",
+    "math",
+    "philosophy",
+    "philosophy",
+    "tool",
+    "wiki_ru",
+    "tool",
+    "code"
+   ]
+  },
+  {
+   "layer": 23,
+   "n_changed": 10,
+   "gained": [
+    5,
+    14,
+    15,
+    17,
+    20,
+    44,
+    62,
+    84,
+    108,
+    124
+   ],
+   "lost": [
+    2,
+    32,
+    33,
+    41,
+    53,
+    78,
+    96,
+    107,
+    109,
+    121
+   ],
+   "gained_serves": [
+    "code",
+    "code",
+    "code",
+    "wiki_ru",
+    "wiki_he",
+    "math",
+    "code",
+    "wiki_ar",
+    "wiki_ru",
+    "wiki_ar"
+   ],
+   "lost_serves": [
+    "wiki_de",
+    "math",
+    "instruction",
+    "wiki_de",
+    "wiki_ja",
+    "reasoning",
+    "instruction",
+    "instruction",
+    "reasoning",
+    "philosophy"
+   ]
+  },
+  {
+   "layer": 24,
+   "n_changed": 5,
+   "gained": [
+    21,
+    22,
+    41,
+    85,
+    98
+   ],
+   "lost": [
+    6,
+    49,
+    61,
+    90,
+    110
+   ],
+   "gained_serves": [
+    "math",
+    "wiki_he",
+    "code",
+    "wiki_ar",
+    "wiki_ar"
+   ],
+   "lost_serves": [
+    "wiki_de",
+    "philosophy",
+    "wiki_he",
+    "chat",
+    "wiki_es"
+   ]
+  },
+  {
+   "layer": 25,
+   "n_changed": 7,
+   "gained": [
+    14,
+    29,
+    43,
+    52,
+    56,
+    59,
+    69
+   ],
+   "lost": [
+    1,
+    10,
+    23,
+    27,
+    50,
+    93,
+    125
+   ],
+   "gained_serves": [
+    "code",
+    "wiki_ja",
+    "code",
+    "wiki_ru",
+    "wiki_ja",
+    "wiki_ru",
+    "math"
+   ],
+   "lost_serves": [
+    "tool",
+    "instruction",
+    "reasoning",
+    "philosophy",
+    "code",
+    "wiki_ru",
+    "philosophy"
+   ]
+  },
+  {
+   "layer": 26,
+   "n_changed": 7,
+   "gained": [
+    2,
+    19,
+    26,
+    70,
+    74,
+    89,
+    104
+   ],
+   "lost": [
+    12,
+    30,
+    49,
+    51,
+    72,
+    109,
+    110
+   ],
+   "gained_serves": [
+    "code",
+    "tool",
+    "code",
+    "math",
+    "wiki_ar",
+    "math",
+    "code"
+   ],
+   "lost_serves": [
+    "math",
+    "wiki_de",
+    "code",
+    "wiki_es",
+    "code",
+    "philosophy",
+    "philosophy"
+   ]
+  },
+  {
+   "layer": 27,
+   "n_changed": 5,
+   "gained": [
+    11,
+    75,
+    84,
+    102,
+    107
+   ],
+   "lost": [
+    16,
+    24,
+    48,
+    56,
+    106
+   ],
+   "gained_serves": [
+    "wiki_de",
+    "wiki_ja",
+    "code",
+    "wiki_ru",
+    "reasoning"
+   ],
+   "lost_serves": [
+    "instruction",
+    "math",
+    "philosophy",
+    "philosophy",
+    "wiki_es"
+   ]
+  },
+  {
+   "layer": 28,
+   "n_changed": 8,
+   "gained": [
+    1,
+    32,
+    58,
+    63,
+    69,
+    98,
+    113,
+    122
+   ],
+   "lost": [
+    9,
+    17,
+    19,
+    24,
+    27,
+    50,
+    103,
+    106
+   ],
+   "gained_serves": [
+    "wiki_ja",
+    "wiki_he",
+    "code",
+    "math",
+    "code",
+    "reasoning",
+    "wiki_de",
+    "code"
+   ],
+   "lost_serves": [
+    "wiki_es",
+    "math",
+    "tool",
+    "wiki_ru",
+    "code",
+    "wiki_ar",
+    "math",
+    "math"
+   ]
+  },
+  {
+   "layer": 29,
+   "n_changed": 10,
+   "gained": [
+    28,
+    48,
+    63,
+    78,
+    89,
+    94,
+    101,
+    109,
+    111,
+    116
+   ],
+   "lost": [
+    10,
+    22,
+    29,
+    32,
+    33,
+    73,
+    85,
+    95,
+    100,
+    110
+   ],
+   "gained_serves": [
+    "math",
+    "reasoning",
+    "reasoning",
+    "wiki_ar",
+    "wiki_ru",
+    "code",
+    "wiki_ja",
+    "math",
+    "code",
+    "tool"
+   ],
+   "lost_serves": [
+    "code",
+    "wiki_ru",
+    "tool",
+    "code",
+    "math",
+    "philosophy",
+    "philosophy",
+    "chat",
+    "wiki_ru",
+    "code"
+   ]
+  },
+  {
+   "layer": 30,
+   "n_changed": 12,
+   "gained": [
+    2,
+    9,
+    13,
+    16,
+    27,
+    58,
+    66,
+    90,
+    91,
+    92,
+    98,
+    111
+   ],
+   "lost": [
+    6,
+    25,
+    28,
+    32,
+    42,
+    50,
+    52,
+    65,
+    67,
+    69,
+    76,
+    108
+   ],
+   "gained_serves": [
+    "math",
+    "wiki_de",
+    "reasoning",
+    "math",
+    "philosophy",
+    "wiki_ru",
+    "code",
+    "philosophy",
+    "code",
+    "wiki_de",
+    "code",
+    "code"
+   ],
+   "lost_serves": [
+    "wiki_es",
+    "wiki_ru",
+    "wiki_es",
+    "code",
+    "philosophy",
+    "code",
+    "instruction",
+    "wiki_he",
+    "tool",
+    "code",
+    "math",
+    "code"
+   ]
+  },
+  {
+   "layer": 31,
+   "n_changed": 11,
+   "gained": [
+    3,
+    18,
+    28,
+    34,
+    36,
+    39,
+    44,
+    81,
+    82,
+    120,
+    127
+   ],
+   "lost": [
+    11,
+    17,
+    26,
+    42,
+    83,
+    86,
+    95,
+    109,
+    116,
+    125,
+    126
+   ],
+   "gained_serves": [
+    "chat",
+    "math",
+    "tool",
+    "reasoning",
+    "code",
+    "philosophy",
+    "wiki_ja",
+    "code",
+    "wiki_ja",
+    "code",
+    "wiki_es"
+   ],
+   "lost_serves": [
+    "wiki_ar",
+    "chat",
+    "instruction",
+    "math",
+    "wiki_ja",
+    "tool",
+    "reasoning",
+    "math",
+    "wiki_de",
+    "wiki_ru",
+    "wiki_es"
+   ]
+  },
+  {
+   "layer": 32,
+   "n_changed": 6,
+   "gained": [
+    16,
+    39,
+    45,
+    69,
+    76,
+    127
+   ],
+   "lost": [
+    11,
+    33,
+    48,
+    59,
+    95,
+    114
+   ],
+   "gained_serves": [
+    "tool",
+    "philosophy",
+    "wiki_ru",
+    "code",
+    "wiki_ru",
+    "wiki_ar"
+   ],
+   "lost_serves": [
+    "code",
+    "chat",
+    "philosophy",
+    "reasoning",
+    "philosophy",
+    "math"
+   ]
+  },
+  {
+   "layer": 33,
+   "n_changed": 9,
+   "gained": [
+    12,
+    20,
+    26,
+    51,
+    55,
+    70,
+    87,
+    91,
+    120
+   ],
+   "lost": [
+    23,
+    34,
+    63,
+    73,
+    75,
+    81,
+    107,
+    108,
+    112
+   ],
+   "gained_serves": [
+    "tool",
+    "wiki_ja",
+    "code",
+    "tool",
+    "math",
+    "wiki_ru",
+    "tool",
+    "wiki_ar",
+    "math"
+   ],
+   "lost_serves": [
+    "wiki_es",
+    "code",
+    "philosophy",
+    "wiki_de",
+    "code",
+    "philosophy",
+    "code",
+    "math",
+    "tool"
+   ]
+  },
+  {
+   "layer": 34,
+   "n_changed": 6,
+   "gained": [
+    0,
+    29,
+    59,
+    81,
+    116,
+    122
+   ],
+   "lost": [
+    3,
+    48,
+    52,
+    64,
+    91,
+    97
+   ],
+   "gained_serves": [
+    "code",
+    "code",
+    "code",
+    "tool",
+    "math",
+    "math"
+   ],
+   "lost_serves": [
+    "instruction",
+    "code",
+    "instruction",
+    "philosophy",
+    "wiki_ru",
+    "tool"
+   ]
+  },
+  {
+   "layer": 35,
+   "n_changed": 7,
+   "gained": [
+    17,
+    20,
+    34,
+    62,
+    84,
+    108,
+    124
+   ],
+   "lost": [
+    21,
+    32,
+    33,
+    81,
+    107,
+    112,
+    126
+   ],
+   "gained_serves": [
+    "wiki_ru",
+    "wiki_he",
+    "code",
+    "code",
+    "code",
+    "wiki_ru",
+    "wiki_es"
+   ],
+   "lost_serves": [
+    "math",
+    "math",
+    "instruction",
+    "code",
+    "instruction",
+    "code",
+    "tool"
+   ]
+  },
+  {
+   "layer": 36,
+   "n_changed": 8,
+   "gained": [
+    1,
+    13,
+    22,
+    27,
+    41,
+    78,
+    92,
+    98
+   ],
+   "lost": [
+    8,
+    28,
+    49,
+    61,
+    73,
+    85,
+    90,
+    125
+   ],
+   "gained_serves": [
+    "wiki_ja",
+    "math",
+    "wiki_he",
+    "wiki_ru",
+    "code",
+    "code",
+    "wiki_he",
+    "wiki_ar"
+   ],
+   "lost_serves": [
+    "philosophy",
+    "code",
+    "philosophy",
+    "wiki_he",
+    "wiki_ja",
+    "tool",
+    "chat",
+    "wiki_ja"
+   ]
+  },
+  {
+   "layer": 37,
+   "n_changed": 8,
+   "gained": [
+    14,
+    17,
+    31,
+    56,
+    69,
+    107,
+    111,
+    116
+   ],
+   "lost": [
+    1,
+    25,
+    34,
+    40,
+    84,
+    93,
+    97,
+    124
+   ],
+   "gained_serves": [
+    "code",
+    "wiki_ja",
+    "code",
+    "wiki_ja",
+    "math",
+    "reasoning",
+    "math",
+    "wiki_ja"
+   ],
+   "lost_serves": [
+    "wiki_ru",
+    "reasoning",
+    "philosophy",
+    "wiki_de",
+    "code",
+    "wiki_ru",
+    "code",
+    "wiki_ar"
+   ]
+  },
+  {
+   "layer": 38,
+   "n_changed": 11,
+   "gained": [
+    1,
+    2,
+    19,
+    35,
+    42,
+    45,
+    52,
+    54,
+    67,
+    74,
+    104
+   ],
+   "lost": [
+    3,
+    5,
+    14,
+    30,
+    49,
+    51,
+    59,
+    95,
+    107,
+    108,
+    109
+   ],
+   "gained_serves": [
+    "code",
+    "code",
+    "math",
+    "wiki_ja",
+    "wiki_ja",
+    "code",
+    "philosophy",
+    "wiki_ja",
+    "math",
+    "wiki_he",
+    "code"
+   ],
+   "lost_serves": [
+    "wiki_ru",
+    "math",
+    "code",
+    "wiki_es",
+    "wiki_ru",
+    "wiki_es",
+    "code",
+    "chat",
+    "reasoning",
+    "wiki_de",
+    "philosophy"
+   ]
+  },
+  {
+   "layer": 39,
+   "n_changed": 9,
+   "gained": [
+    11,
+    17,
+    55,
+    67,
+    84,
+    88,
+    102,
+    118,
+    119
+   ],
+   "lost": [
+    13,
+    24,
+    59,
+    81,
+    83,
+    94,
+    106,
+    109,
+    116
+   ],
+   "gained_serves": [
+    "wiki_de",
+    "wiki_es",
+    "philosophy",
+    "math",
+    "code",
+    "math",
+    "wiki_ru",
+    "math",
+    "wiki_ja"
+   ],
+   "lost_serves": [
+    "reasoning",
+    "math",
+    "math",
+    "code",
+    "philosophy",
+    "wiki_es",
+    "wiki_es",
+    "chat",
+    "instruction"
+   ]
+  },
+  {
+   "layer": 40,
+   "n_changed": 11,
+   "gained": [
+    1,
+    3,
+    36,
+    56,
+    62,
+    63,
+    64,
+    88,
+    104,
+    113,
+    122
+   ],
+   "lost": [
+    27,
+    50,
+    57,
+    69,
+    71,
+    87,
+    93,
+    96,
+    97,
+    102,
+    114
+   ],
+   "gained_serves": [
+    "wiki_ja",
+    "math",
+    "reasoning",
+    "wiki_ja",
+    "wiki_ar",
+    "math",
+    "tool",
+    "wiki_ja",
+    "wiki_ja",
+    "wiki_ru",
+    "code"
+   ],
+   "lost_serves": [
+    "wiki_he",
+    "wiki_ar",
+    "tool",
+    "code",
+    "math",
+    "math",
+    "code",
+    "wiki_ja",
+    "philosophy",
+    "philosophy",
+    "chat"
+   ]
+  },
+  {
+   "layer": 41,
+   "n_changed": 9,
+   "gained": [
+    3,
+    9,
+    12,
+    16,
+    24,
+    28,
+    101,
+    107,
+    125
+   ],
+   "lost": [
+    10,
+    29,
+    32,
+    37,
+    75,
+    95,
+    100,
+    102,
+    110
+   ],
+   "gained_serves": [
+    "wiki_ja",
+    "wiki_ru",
+    "wiki_ja",
+    "code",
+    "wiki_ja",
+    "reasoning",
+    "wiki_ja",
+    "wiki_ja",
+    "wiki_ja"
+   ],
+   "lost_serves": [
+    "wiki_de",
+    "tool",
+    "code",
+    "math",
+    "wiki_ja",
+    "tool",
+    "wiki_ru",
+    "chat",
+    "code"
+   ]
+  },
+  {
+   "layer": 42,
+   "n_changed": 12,
+   "gained": [
+    10,
+    13,
+    34,
+    42,
+    53,
+    61,
+    89,
+    96,
+    97,
+    100,
+    107,
+    118
+   ],
+   "lost": [
+    0,
+    36,
+    38,
+    43,
+    50,
+    69,
+    76,
+    94,
+    105,
+    109,
+    112,
+    121
+   ],
+   "gained_serves": [
+    "wiki_he",
+    "wiki_ja",
+    "code",
+    "math",
+    "wiki_ja",
+    "wiki_es",
+    "wiki_ja",
+    "wiki_he",
+    "wiki_he",
+    "wiki_es",
+    "wiki_ja",
+    "wiki_ja"
+   ],
+   "lost_serves": [
+    "math",
+    "chat",
+    "reasoning",
+    "philosophy",
+    "code",
+    "wiki_ru",
+    "philosophy",
+    "math",
+    "code",
+    "tool",
+    "math",
+    "wiki_ja"
+   ]
+  },
+  {
+   "layer": 43,
+   "n_changed": 7,
+   "gained": [
+    2,
+    11,
+    28,
+    76,
+    86,
+    101,
+    113
+   ],
+   "lost": [
+    22,
+    32,
+    38,
+    52,
+    92,
+    94,
+    123
+   ],
+   "gained_serves": [
+    "wiki_he",
+    "code",
+    "math",
+    "wiki_ja",
+    "code",
+    "wiki_ja",
+    "wiki_ja"
+   ],
+   "lost_serves": [
+    "wiki_ja",
+    "wiki_ru",
+    "math",
+    "tool",
+    "reasoning",
+    "philosophy",
+    "math"
+   ]
+  },
+  {
+   "layer": 44,
+   "n_changed": 12,
+   "gained": [
+    35,
+    47,
+    87,
+    93,
+    101,
+    108,
+    114,
+    123,
+    124,
+    125,
+    126,
+    127
+   ],
+   "lost": [
+    2,
+    4,
+    11,
+    15,
+    30,
+    39,
+    40,
+    50,
+    79,
+    103,
+    104,
+    119
+   ],
+   "gained_serves": [
+    "math",
+    "math",
+    "wiki_ja",
+    "wiki_ja",
+    "wiki_ru",
+    "wiki_ja",
+    "wiki_ru",
+    "code",
+    "wiki_ja",
+    "code",
+    "wiki_ja",
+    "code"
+   ],
+   "lost_serves": [
+    "math",
+    "wiki_ja",
+    "instruction",
+    "wiki_ru",
+    "tool",
+    "wiki_ar",
+    "wiki_es",
+    "math",
+    "tool",
+    "math",
+    "wiki_ja",
+    "tool"
+   ]
+  },
+  {
+   "layer": 45,
+   "n_changed": 15,
+   "gained": [
+    2,
+    9,
+    31,
+    38,
+    41,
+    56,
+    60,
+    63,
+    68,
+    69,
+    78,
+    90,
+    91,
+    110,
+    122
+   ],
+   "lost": [
+    3,
+    4,
+    7,
+    19,
+    34,
+    37,
+    45,
+    53,
+    58,
+    72,
+    77,
+    85,
+    89,
+    102,
+    115
+   ],
+   "gained_serves": [
+    "wiki_es",
+    "wiki_ja",
+    "wiki_ru",
+    "tool",
+    "wiki_de",
+    "code",
+    "wiki_de",
+    "math",
+    "wiki_ja",
+    "wiki_ja",
+    "math",
+    "math",
+    "wiki_ja",
+    "wiki_ja",
+    "wiki_ja"
+   ],
+   "lost_serves": [
+    "code",
+    "wiki_ja",
+    "wiki_es",
+    "math",
+    "wiki_ru",
+    "instruction",
+    "wiki_ja",
+    "wiki_ru",
+    "reasoning",
+    "math",
+    "code",
+    "reasoning",
+    "reasoning",
+    "math",
+    "math"
+   ]
+  },
+  {
+   "layer": 46,
+   "n_changed": 15,
+   "gained": [
+    48,
+    56,
+    58,
+    63,
+    65,
+    66,
+    88,
+    93,
+    99,
+    109,
+    110,
+    113,
+    121,
+    123,
+    125
+   ],
+   "lost": [
+    2,
+    8,
+    15,
+    19,
+    20,
+    21,
+    41,
+    75,
+    76,
+    83,
+    101,
+    103,
+    116,
+    119,
+    127
+   ],
+   "gained_serves": [
+    "code",
+    "wiki_ja",
+    "wiki_ja",
+    "tool",
+    "wiki_ja",
+    "wiki_ar",
+    "reasoning",
+    "wiki_he",
+    "wiki_ru",
+    "wiki_es",
+    "wiki_he",
+    "wiki_de",
+    "wiki_ja",
+    "reasoning",
+    "wiki_ja"
+   ],
+   "lost_serves": [
+    "code",
+    "reasoning",
+    "code",
+    "chat",
+    "math",
+    "math",
+    "tool",
+    "tool",
+    "math",
+    "tool",
+    "wiki_es",
+    "math",
+    "tool",
+    "code",
+    "philosophy"
+   ]
+  },
+  {
+   "layer": 47,
+   "n_changed": 7,
+   "gained": [
+    7,
+    40,
+    43,
+    65,
+    68,
+    81,
+    91
+   ],
+   "lost": [
+    11,
+    13,
+    22,
+    29,
+    63,
+    67,
+    94
+   ],
+   "gained_serves": [
+    "wiki_ja",
+    "wiki_ja",
+    "wiki_ja",
+    "tool",
+    "wiki_ja",
+    "wiki_ja",
+    "wiki_ja"
+   ],
+   "lost_serves": [
+    "chat",
+    "wiki_ja",
+    "math",
+    "wiki_ja",
+    "reasoning",
+    "reasoning",
+    "tool"
+   ]
+  }
+ ],
+ "route_tokens": {
+  "code": 85729,
+  "math": 41634,
+  "tool": 51983,
+  "instruction": 13816,
+  "philosophy": 10100,
+  "reasoning": 117504,
+  "chat": 191543,
+  "wiki_he": 15564,
+  "wiki_ar": 6529,
+  "wiki_ru": 10955,
+  "wiki_ja": 13003,
+  "wiki_de": 10475,
+  "wiki_es": 11490
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "dir": "~/models/mpb/r64-nvfp4",
+ "n_tensors": 37875,
+ "bytes": {
+  "experts": 8153800704,
+  "attention": 509634048,
+  "embed": 622329856,
+  "lm_head": 622329856,
+  "router": 12582912,
+  "other": 397312
+ },
+ "total_bytes": 9921074688,
+ "total_gib": 9.239720821380615
+}

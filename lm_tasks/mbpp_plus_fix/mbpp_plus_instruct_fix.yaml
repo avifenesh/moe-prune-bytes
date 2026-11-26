@@ -1,0 +1,14 @@
+# mbpp_plus_instruct with a fixed code extractor. The stock filter prepends three backticks
+# to the reply and its language-tag regex then eats a leading "def" as the tag; this one
+# prepends the full "```python\n" fence from gen_prefix.
+include: /usr/local/lib/python3.12/dist-packages/lm_eval/tasks/mbpp/mbpp_plus_instruct.yaml
+task: mbpp_plus_instruct_fix
+filter_list:
+  - name: "extract_code"
+    filter:
+      - function: "custom"
+        filter_fn: !function utils_fix.build_predictions
+metric_list:
+  - metric: !function utils_fix.pass_at_1
+    aggregation: mean
+    higher_is_better: true

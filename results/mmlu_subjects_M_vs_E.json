@@ -1,0 +1,268 @@
+{
+ "E": {
+  "categories": {
+   "mmlu_stem": {
+    "n": 3153,
+    "acc": 0.7611798287345385,
+    "delta_vs_ref": 0.0,
+    "delta_ci95": [
+     0,
+     0
+    ]
+   },
+   "mmlu_humanities": {
+    "n": 4705,
+    "acc": 0.6280552603613178,
+    "delta_vs_ref": 0.0,
+    "delta_ci95": [
+     0,
+     0
+    ]
+   },
+   "mmlu_social_sciences": {
+    "n": 3077,
+    "acc": 0.8332791680207995,
+    "delta_vs_ref": 0.0,
+    "delta_ci95": [
+     0,
+     0
+    ]
+   },
+   "mmlu_other": {
+    "n": 3107,
+    "acc": 0.7698744769874477,
+    "delta_vs_ref": 0.0,
+    "delta_ci95": [
+     0,
+     0
+    ]
+   }
+  },
+  "subjects": {
+   "mmlu_high_school_computer_science": 0.87,
+   "mmlu_econometrics": 0.6228070175438597,
+   "mmlu_college_computer_science": 0.68,
+   "mmlu_high_school_geography": 0.9040404040404041,
+   "mmlu_international_law": 0.8347107438016529,
+   "mmlu_nutrition": 0.7777777777777778,
+   "mmlu_machine_learning": 0.7053571428571429,
+   "mmlu_electrical_engineering": 0.7103448275862069,
+   "mmlu_moral_disputes": 0.7341040462427746,
+   "mmlu_college_physics": 0.6470588235294118,
+   "mmlu_prehistory": 0.8425925925925926,
+   "mmlu_high_school_world_history": 0.890295358649789,
+   "mmlu_college_chemistry": 0.55,
+   "mmlu_anatomy": 0.6888888888888889,
+   "mmlu_logical_fallacies": 0.7607361963190185,
+   "mmlu_college_medicine": 0.7803468208092486,
+   "mmlu_high_school_european_history": 0.8303030303030303,
+   "mmlu_computer_security": 0.81,
+   "mmlu_us_foreign_policy": 0.9,
+   "mmlu_business_ethics": 0.76,
+   "mmlu_high_school_mathematics": 0.6333333333333333,
+   "mmlu_college_mathematics": 0.59,
+   "mmlu_professional_law": 0.529335071707953,
+   "mmlu_elementary_mathematics": 0.8227513227513228,
+   "mmlu_human_sexuality": 0.7175572519083969,
+   "mmlu_public_relations": 0.7090909090909091,
+   "mmlu_virology": 0.5903614457831325,
+   "mmlu_management": 0.7669902912621359,
+   "mmlu_college_biology": 0.8958333333333334,
+   "mmlu_clinical_knowledge": 0.7849056603773585,
+   "mmlu_formal_logic": 0.5952380952380952,
+   "mmlu_world_religions": 0.8128654970760234,
+   "mmlu_professional_accounting": 0.6028368794326241,
+   "mmlu_high_school_us_history": 0.8774509803921569,
+   "mmlu_high_school_psychology": 0.9027522935779817,
+   "mmlu_marketing": 0.8974358974358975,
+   "mmlu_sociology": 0.8009950248756219,
+   "mmlu_abstract_algebra": 0.59,
+   "mmlu_high_school_microeconomics": 0.9201680672268907,
+   "mmlu_conceptual_physics": 0.8595744680851064,
+   "mmlu_medical_genetics": 0.86,
+   "mmlu_professional_medicine": 0.7904411764705882,
+   "mmlu_high_school_biology": 0.9096774193548387,
+   "mmlu_astronomy": 0.875,
+   "mmlu_high_school_chemistry": 0.7389162561576355,
+   "mmlu_high_school_statistics": 0.7777777777777778,
+   "mmlu_human_aging": 0.7443946188340808,
+   "mmlu_high_school_macroeconomics": 0.8589743589743589,
+   "mmlu_jurisprudence": 0.7777777777777778,
+   "mmlu_security_studies": 0.726530612244898,
+   "mmlu_philosophy": 0.7459807073954984,
+   "mmlu_high_school_government_and_politics": 0.9378238341968912,
+   "mmlu_professional_psychology": 0.7941176470588235,
+   "mmlu_moral_scenarios": 0.37318435754189944,
+   "mmlu_high_school_physics": 0.6887417218543046,
+   "mmlu_miscellaneous": 0.8467432950191571,
+   "mmlu_global_facts": 0.48
+  }
+ },
+ "M": {
+  "categories": {
+   "mmlu_stem": {
+    "n": 3153,
+    "acc": 0.7288296860133207,
+    "delta_vs_ref": -0.03235014272121789,
+    "delta_ci95": [
+     -0.04471931493815414,
+     -0.02029812876625436
+    ]
+   },
+   "mmlu_humanities": {
+    "n": 4705,
+    "acc": 0.5970244420828905,
+    "delta_vs_ref": -0.031030818278427207,
+    "delta_ci95": [
+     -0.04208289054197662,
+     -0.01997874601487779
+    ]
+   },
+   "mmlu_social_sciences": {
+    "n": 3077,
+    "acc": 0.7981800454988626,
+    "delta_vs_ref": -0.03509912252193695,
+    "delta_ci95": [
+     -0.04614884627884303,
+     -0.024374390640233994
+    ]
+   },
+   "mmlu_other": {
+    "n": 3107,
+    "acc": 0.7103315094946894,
+    "delta_vs_ref": -0.05954296749275829,
+    "delta_ci95": [
+     -0.07209526874798841,
+     -0.046990666237528164
+    ]
+   }
+  },
+  "subjects": {
+   "mmlu_international_law": 0.7603305785123967,
+   "mmlu_sociology": 0.8208955223880597,
+   "mmlu_high_school_chemistry": 0.6798029556650246,
+   "mmlu_abstract_algebra": 0.49,
+   "mmlu_high_school_computer_science": 0.82,
+   "mmlu_college_computer_science": 0.64,
+   "mmlu_logical_fallacies": 0.7607361963190185,
+   "mmlu_electrical_engineering": 0.7241379310344828,
+   "mmlu_security_studies": 0.6408163265306123,
+   "mmlu_business_ethics": 0.69,
+   "mmlu_high_school_us_history": 0.8235294117647058,
+   "mmlu_professional_accounting": 0.5283687943262412,
+   "mmlu_miscellaneous": 0.7828863346104725,
+   "mmlu_high_school_government_and_politics": 0.8393782383419689,
+   "mmlu_medical_genetics": 0.69,
+   "mmlu_high_school_biology": 0.8806451612903226,
+   "mmlu_conceptual_physics": 0.8595744680851064,
+   "mmlu_global_facts": 0.45,
+   "mmlu_virology": 0.5301204819277109,
+   "mmlu_world_religions": 0.7251461988304093,
+   "mmlu_machine_learning": 0.5357142857142857,
+   "mmlu_high_school_physics": 0.6688741721854304,
+   "mmlu_formal_logic": 0.6190476190476191,
+   "mmlu_high_school_statistics": 0.7638888888888888,
+   "mmlu_elementary_mathematics": 0.828042328042328,
+   "mmlu_professional_law": 0.46870925684485004,
+   "mmlu_high_school_microeconomics": 0.8949579831932774,
+   "mmlu_college_chemistry": 0.54,
+   "mmlu_moral_scenarios": 0.4122905027932961,
+   "mmlu_computer_security": 0.73,
+   "mmlu_prehistory": 0.7716049382716049,
+   "mmlu_college_physics": 0.6764705882352942,
+   "mmlu_econometrics": 0.5614035087719298,
+   "mmlu_college_mathematics": 0.57,
+   "mmlu_college_medicine": 0.6763005780346821,
+   "mmlu_philosophy": 0.7395498392282959,
+   "mmlu_professional_psychology": 0.7271241830065359,
+   "mmlu_high_school_mathematics": 0.6037037037037037,
+   "mmlu_professional_medicine": 0.7022058823529411,
+   "mmlu_high_school_european_history": 0.8,
+   "mmlu_high_school_macroeconomics": 0.8615384615384616,
+   "mmlu_us_foreign_policy": 0.88,
+   "mmlu_high_school_world_history": 0.8776371308016878,
+   "mmlu_moral_disputes": 0.6791907514450867,
+   "mmlu_human_sexuality": 0.7099236641221374,
+   "mmlu_high_school_psychology": 0.8935779816513761,
+   "mmlu_clinical_knowledge": 0.7433962264150943,
+   "mmlu_jurisprudence": 0.7407407407407407,
+   "mmlu_high_school_geography": 0.8686868686868687,
+   "mmlu_human_aging": 0.7174887892376681,
+   "mmlu_anatomy": 0.6370370370370371,
+   "mmlu_public_relations": 0.6727272727272727,
+   "mmlu_nutrition": 0.7352941176470589,
+   "mmlu_astronomy": 0.7960526315789473,
+   "mmlu_management": 0.7281553398058253,
+   "mmlu_college_biology": 0.8541666666666666,
+   "mmlu_marketing": 0.8931623931623932
+  },
+  "top_gain_subjects_vs_ref": [
+   [
+    "mmlu_moral_scenarios",
+    0.0391
+   ],
+   [
+    "mmlu_college_physics",
+    0.0294
+   ],
+   [
+    "mmlu_formal_logic",
+    0.0238
+   ],
+   [
+    "mmlu_sociology",
+    0.0199
+   ],
+   [
+    "mmlu_electrical_engineering",
+    0.0138
+   ],
+   [
+    "mmlu_elementary_mathematics",
+    0.0053
+   ],
+   [
+    "mmlu_high_school_macroeconomics",
+    0.0026
+   ],
+   [
+    "mmlu_logical_fallacies",
+    0.0
+   ]
+  ],
+  "top_loss_subjects_vs_ref": [
+   [
+    "mmlu_security_studies",
+    -0.0857
+   ],
+   [
+    "mmlu_world_religions",
+    -0.0877
+   ],
+   [
+    "mmlu_professional_medicine",
+    -0.0882
+   ],
+   [
+    "mmlu_high_school_government_and_politics",
+    -0.0984
+   ],
+   [
+    "mmlu_abstract_algebra",
+    -0.1
+   ],
+   [
+    "mmlu_college_medicine",
+    -0.104
+   ],
+   [
+    "mmlu_machine_learning",
+    -0.1696
+   ],
+   [
+    "mmlu_medical_genetics",
+    -0.17
+   ]
+  ]
+ }
+}

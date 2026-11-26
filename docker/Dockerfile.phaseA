@@ -1,0 +1,3 @@
+FROM mpb-eval:v0.34.0
+RUN pip install --no-cache-dir "lm-eval[math,ifeval]==0.4.13" evaluate "antlr4-python3-runtime==4.11" math_verify langdetect immutabledict nltk
+ENTRYPOINT []
